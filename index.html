@@ -31,7 +31,12 @@
       </header>
       <section>
         <h1>
-<a name="motivation" class="anchor" href="#motivation"><span class="octicon octicon-link"></span></a>Motivation</h1>
+<a id="updates" class="anchor" href="#updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Updates</h1>
+
+<p>This page is relaunched soon. I'm currently updating the software, improving the Java GPIO support and fixing some major Google Music issues.</p>
+
+<h1>
+<a id="motivation" class="anchor" href="#motivation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motivation</h1>
 
 <p>This is the third internet radio I've build. It has been mostly been inspired by <a href="http://hackaday.com/2013/07/14/simple-looking-antique-internet-radio-has-a-lot-under-the-hood/">this</a> radio that has been published on 
 <a href="http://www.hackaday.com">hackaday.com</a>. The idea of attaching a cheap display to the Raspberry Pi for a radio made me thinking what kind of other information could be displayed. 
@@ -40,14 +45,15 @@ Since I already developed a Google music client for my last radio, I decided to 
 <p>Have a look on the results below!</p>
 
 <h1>
-<a name="the-case" class="anchor" href="#the-case"><span class="octicon octicon-link"></span></a>The Case</h1>
+<a id="the-case" class="anchor" href="#the-case" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Case</h1>
 
 <p>A BIG THANK YOU to my father who build the case. It is made out of oak. Here you see some pictures of the unfinished case:</p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6920.JPG" alt="Box 1"><img src="http://www.paderpoint.net/radio/iii/tn_IMG-20140108-WA0000.jpg" alt="Box 2"></p>
+<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6920.JPG" alt="Box 1">
+<img src="http://www.paderpoint.net/radio/iii/tn_IMG-20140108-WA0000.jpg" alt="Box 2"></p>
 
 <h1>
-<a name="the-hardware" class="anchor" href="#the-hardware"><span class="octicon octicon-link"></span></a>The Hardware</h1>
+<a id="the-hardware" class="anchor" href="#the-hardware" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Hardware</h1>
 
 <p>Bill of materials:</p>
 
@@ -66,11 +72,13 @@ Since I already developed a Google music client for my last radio, I decided to 
 <li>40x 20cm male - female jumper wire cable (connecting the rotary encoder with the Pi)</li>
 <li>1x micro USB cable (I've cut this cable to use one half for the Raspi power supply and the other one to connect the first relay)</li>
 <li>plugs for the power supply</li>
-</ul><p>The hardware architecture of the radio is pretty simple. The Raspberry Pi with USB WLAN and USB sound has another USB cable attached that will power a relay. This relay enables the power supply for the 
+</ul>
+
+<p>The hardware architecture of the radio is pretty simple. The Raspberry Pi with USB WLAN and USB sound has another USB cable attached that will power a relay. This relay enables the power supply for the 
 Logitech amplifier and another relay that enables the display. I used the switch of the poti of the Logitech amplifier to control the power to the Raspberry Pi. </p>
 
 <h1>
-<a name="the-software" class="anchor" href="#the-software"><span class="octicon octicon-link"></span></a>The Software</h1>
+<a id="the-software" class="anchor" href="#the-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Software</h1>
 
 <p>The main motivation for this radio was to build a UI using JavaFX. There are a lot of demos out there that show that JavaFX is working on the Raspberry Pi, but I did not find much use cases.
 I wanted to have a nice UI and it took most of the time to build it. I haven't programmed JavaFX before and the functionality of the API is really impressing.
@@ -83,13 +91,15 @@ music section that is loaded asynchronously). I would have have switched to a Be
 <li><a href="https://github.com/guyc/py-gaugette">Gaugette's rotary encoder library</a></li>
 <li>mpc/mpd for music playback</li>
 <li>A small python programm that communicates the rotary encoder state with the JavaFX programm via a socket</li>
-</ul><h1>
-<a name="previous-work" class="anchor" href="#previous-work"><span class="octicon octicon-link"></span></a>Previous Work</h1>
+</ul>
+
+<h1>
+<a id="previous-work" class="anchor" href="#previous-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Previous Work</h1>
 
 <p>The radio is based on the experiences I've made with building the <a href="http://syd711.github.io/mephisto_i/">Mephisto I</a> and <a href="http://syd711.github.io/mephisto_ii/">Mephisto II</a></p>
 
 <h1>
-<a name="conclusion" class="anchor" href="#conclusion"><span class="octicon octicon-link"></span></a>Conclusion</h1>
+<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h1>
 
 <p>Programming JavaFX was fun, also to actual "build" something. My next project is gonna be a <a href="http://hackaday.com/2014/01/04/build-a-simple-audio-amp/">gainclone</a>.</p>
 
