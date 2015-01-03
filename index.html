@@ -33,7 +33,8 @@
         <h1>
 <a id="updates" class="anchor" href="#updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Updates</h1>
 
-<p>This page is relaunched soon. I'm currently updating the software, improving the Java GPIO support and fixing some major Google Music issues.</p>
+<p>The software of the UI has been re-implemented and can be found here:
+<a href="https://github.com/syd711/mephisto_iii">https://github.com/syd711/mephisto_iii</a></p>
 
 <h1>
 <a id="motivation" class="anchor" href="#motivation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motivation</h1>
@@ -78,7 +79,7 @@ Since I already developed a Google music client for my last radio, I decided to 
 Logitech amplifier and another relay that enables the display. I used the switch of the poti of the Logitech amplifier to control the power to the Raspberry Pi. </p>
 
 <h1>
-<a id="the-software" class="anchor" href="#the-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Software</h1>
+<a id="the-software-old-version" class="anchor" href="#the-software-old-version" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Software (old version)</h1>
 
 <p>The main motivation for this radio was to build a UI using JavaFX. There are a lot of demos out there that show that JavaFX is working on the Raspberry Pi, but I did not find much use cases.
 I wanted to have a nice UI and it took most of the time to build it. I haven't programmed JavaFX before and the functionality of the API is really impressing.
@@ -94,14 +95,15 @@ music section that is loaded asynchronously). I would have have switched to a Be
 </ul>
 
 <h1>
-<a id="previous-work" class="anchor" href="#previous-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Previous Work</h1>
+<a id="the-software-new-version" class="anchor" href="#the-software-new-version" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Software (new version)</h1>
 
-<p>The radio is based on the experiences I've made with building the <a href="http://syd711.github.io/mephisto_i/">Mephisto I</a> and <a href="http://syd711.github.io/mephisto_ii/">Mephisto II</a></p>
+<p>I've re-implemented the UI using a 100% Java solution. See <a href="https://github.com/syd711/mephisto_iii">https://github.com/syd711/mephisto_iii</a> for details.
+The most important change is that the rotary encoder is now controlled via pi4j (<a href="http://pi4j.com/">http://pi4j.com/</a>). </p>
 
 <h1>
-<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h1>
+<a id="related-work" class="anchor" href="#related-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Related Work</h1>
 
-<p>Programming JavaFX was fun, also to actual "build" something. My next project is gonna be a <a href="http://hackaday.com/2014/01/04/build-a-simple-audio-amp/">gainclone</a>.</p>
+<p>The radio is based on the experiences I've made with building the <a href="http://syd711.github.io/mephisto_i/">Mephisto I</a> and <a href="http://syd711.github.io/mephisto_ii/">Mephisto II</a>.</p>
 
 <p>Here are some additional fotos of the build process:</p>
 
@@ -115,17 +117,29 @@ music section that is loaded asynchronously). I would have have switched to a Be
 
 <p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6925.JPG" alt="Finished Radio"></p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6927.JPG" alt="UI - Splash Screen"></p>
+<p>Updated screenshots of the new UI:</p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6929.JPG" alt="UI - Radio"></p>
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio1.png" alt=""></p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6930.JPG" alt="UI - Weather 1"></p>
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio2.png" alt=""></p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6931.JPG" alt="UI - Weather 2"></p>
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio3.png" alt=""></p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6932.JPG" alt="UI - Music 1"></p>
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio4.png" alt=""></p>
 
-<p><img src="http://www.paderpoint.net/radio/iii/tn_IMG_6933.JPG" alt="UI - Music 2"></p>
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio5.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio6.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio7.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio8.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio9.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio10.png" alt=""></p>
+
+<p><img src="http://www.paderpoint.net/radio/iii-new/radio11.png" alt=""></p>
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
